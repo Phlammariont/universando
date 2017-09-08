@@ -1,0 +1,37 @@
+{
+  "name": "universando",
+  "version": "0.0.1",
+  "description": "Entorno de aprendizaje",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "./node_modules/.bin/webpack -p --config webpack.prod.js",
+    "build-dev": "./node_modules/.bin/webpack --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/Phlammariont/universando.git",
+  "keywords": [
+    "universando",
+    "educacion",
+    "preuniversitario"
+  ],
+  "author": "Leon Rueda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phlammariont/universando/issues"
+  },
+  "homepage": "https://github.com/Phlammariont/universando#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "lodash": "latest"
+  }
+}
